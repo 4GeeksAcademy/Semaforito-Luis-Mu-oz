@@ -9,3 +9,68 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url(https://media.istockphoto.com/id/1364054930/es/foto/multitud-de-personas-irreconocibles-cruzando-la-calle-en-el-sem%C3%A1foro-cebra.jpg?s=612x612&w=0&k=20&c=IfD3VDx9E0QVZB8UzFe84f47P9C9TCigkVwndmcGzJA=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.p-box {
+    border: 1px solid black;
+    width: 15px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.box-light {
+    border: 1px solid black;
+    width: 150px;
+    height: 450px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.box-light div {
+    border: 1px solid black;
+    width: 130px;
+    height: 150px;
+    margin: 130px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.light-on {
+    box-shadow: 0px 0px 50px 20px rgb(255, 255, 49);
+}
+
